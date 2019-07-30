@@ -1,0 +1,15 @@
+spring:
+  #上传文件大小
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  #logback配置    
+  logging:
+    config: classpath:logback-spring.xml
+    
+resourceLocations:
+  uploadPath: /uploaded_files/ #文件上传路径
+resourceHandler:
+  pathHandler: /files/ #文件访问映射路径
+  
