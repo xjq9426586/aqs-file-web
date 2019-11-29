@@ -9,7 +9,7 @@ spring:
     config: classpath:logback-spring.xml
     
 resourceLocations:
-  uploadPath: /uploaded_files/ #文件上传路径
+  uploadPath: /uploaded_files/ #D:/uploaded_files/ #文件上传路径
 resourceHandler:
   pathHandler: /files/ #文件访问映射路径
   
